@@ -25,3 +25,14 @@ function romanNumber(num) {
 const num = 'IV';
 const output = romanNumber(num);
 console.log(output);
+
+
+// constraints
+
+// as for conditions there are only two,
+// => either both will be equal
+// => or the first character will be smaller then the second character
+
+// for solution,
+// => if equal: just add them and return the answer
+// => if 1st > 2nd character: sub 2nd from 1st and increment
